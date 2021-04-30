@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 80vh;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.screen{
+    width: 100%;
+    font-size:7rem;
+    padding:0.5rem 0px;
+    background-color: rgb(58, 47, 47);
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+}
+
+button{
+    flex: 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0px;
+}
+
+.btn{
+    font-size: 4rem;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    background-color:dodgerblue;
+    color:white;
+}
+
+.orn{
+    background-color: orange;
+    color:white;
+}
+.orn:hover{
+background-color: darkblue;
+color:white;
+}
+.btn-Equal{
+    font-size: 4rem;
+}
